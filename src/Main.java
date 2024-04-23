@@ -1,15 +1,15 @@
 public class Main {
     public static void main(String[] args) {
         int start = 100;
-        int x = 800;
+        int refill = 1100;
         int bonus;
-        if (x > 1000) {
-            bonus = x / 100;
+        if (refill > 1000) {
+            bonus = refill / 100;
         } else {
             bonus = 0;
         }
-        int score = start + x;
-        System.out.println("Счёт:" + score);
+        int score = start + refill;
+        System.out.println("Счёт:"+ score);
         System.out.println("Бонусные рубли:" + bonus);
     }
 }
