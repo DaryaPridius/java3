@@ -8,8 +8,9 @@ public class Main {
         } else {
             bonus = 0;
         }
-        int score = start + refill;
-        System.out.println("Счёт:"+ score);
+        int score = start + refill + bonus;
         System.out.println("Бонусные рубли:" + bonus);
+        System.out.println("Итоговый счёт:"+ score);
+
     }
 }
